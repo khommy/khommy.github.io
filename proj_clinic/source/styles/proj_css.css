@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+  font-family: Montserrat,sans-serif;
+}
+
+.navbar .nav-link.active {
+    color: rgb(49, 169, 186);
+}
+
+.navbar-nav {
+    font-size: small;
+}
+
+.btn.btn-secondary {
+    margin-left: 0%;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: black;
+    font-size: small;
+}
+
+.dropdown-menu:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.dropdown-menu {
+    font-size: small;
+}
+
+.dropdown-item {
+    color: black;
+}
+
+.dropdown-item:focus {
+    background-color: rgb(49, 169, 186);
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);  
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border: none;
+    font-size: small;
+    box-shadow: 0px 2px 4px #8e8d8d;
+}
+
+.btn-grad:hover {
+    background: rgb(1, 134, 144);
+    cursor: pointer;
+}
+
+.btn-grad:active {
+    background: rgb(255, 255, 255);
+    color: white;
+    transition: 1ms;
+}
+
+.box-phon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font: caption;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.box-daily {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font: caption;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 9px;
+}
+
+.form {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.form-control {
+    background-color: none;
+}
+.btn-search{
+    border-style: none;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.btn-search:active{    
+    margin-top: 7%;   
+}
+
+.conteiner-info {
+    margin-top: 10px;
+    height: auto;
+}
+
+.container * {
+    text-align: center;
+}
+
+.btn-block {
+    position: absolute;
+    bottom: 40px;
+    right: 1137px;
+    padding-left:50px;
+    padding-right: 50px;
+}
+
+.carousel-inner{
+    position: relative;
+}
+
+.text-main{
+    position: absolute;
+    background-color:transparent;
+    font-family: Revalia, sans-serif;
+    color: white;
+    top: 18%;
+    left: 9%;
+    text-align:tleft;
+    text-transform: uppercase;
+}
+
+.maincomplex-info {  
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 50px;
+};
